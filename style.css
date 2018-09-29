@@ -1,0 +1,50 @@
+/* Updating general styles for fonts */
+
+body {
+  font-family: 'PT Serif', serif;
+  font-size: 18px;
+}
+
+nav, h1, h2, h3, h4, h5 {
+  font-family: 'Overpass', sans-serif;
+}
+
+/* Navbar Styling */
+
+.navbar a {
+  color: #fff;
+}
+
+.btn-contact {
+  border-radius: 2px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* Expands the space between links in the navBar for mobile users. Also hides the button so it can be replaced with a regular link. */
+
+@media only screen and (max-width: 767px) {
+
+  ul.navbar-nav li.nav-item {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  ul.navbar-nav form {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+.button-contact {
+  display: none;
+}
+
+}
+
+/* Hides the normal-styled contact link on larger displays. */
+
+@media only screen and (min-width: 767px) {
+  li.nav-contact {
+    display: none;
+  }
+}
