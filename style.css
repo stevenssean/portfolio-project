@@ -192,4 +192,34 @@ nav, h1, h2, h3, h4, h5 {
 
   }
 
-  
+  /* Porfolio Card Style */
+
+  .card {
+    border: none;
+  }
+
+  .card-body {
+      padding: 20px 0px 20px 0px;
+  }
+
+  .card-img-top {
+    border-radius: 0px;
+  }
+
+  .text-muted {
+    font-family: 'Overpass';
+  }
+
+  /* Gives cards a little more breathing room on mobile devices */
+
+  @media only screen and (max-width: 767px) {
+
+    .card {
+      margin-bottom: 50px;
+    }
+
+    .card-body {
+      margin-top: 20px;
+    }
+
+  }
