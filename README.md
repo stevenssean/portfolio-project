@@ -5,5 +5,4 @@ Fonts used for this project include PT Serif and Overpass, both of which were ac
 
 Guides/tutorials that were referred to during the creation of this site include:
 
-CSS Tricks - Tinted Images with Multiple Backgrounds
-https://css-tricks.com/tinted-images-multiple-backgrounds/
+CSS Tricks - [Tinted Images with Multiple Backgrounds](https://css-tricks.com/tinted-images-multiple-backgrounds/)
