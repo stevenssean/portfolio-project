@@ -223,3 +223,85 @@ nav, h1, h2, h3, h4, h5 {
     }
 
   }
+
+  /* Footer / Contact Style */
+
+  .contact-style {
+    margin-top: 70px;
+    background-color: rgb(40, 54, 64);
+    color: #fff;
+  }
+
+  .contact-content {
+    margin: auto;
+    max-width: 1140px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .contact-header {
+    font-family: 'Overpass';
+    font-size: 48px;
+    font-weight: 800;
+  }
+
+  .contact-social {
+    font-size: 18px;
+    padding-top: 20px;
+  }
+
+  .contact-social a {
+    color: #fff;
+  }
+
+  .contact-social a:hover {
+    color: rgb(250,250,250,0.8);
+  }
+
+  .contact-social .fab {
+    padding-right: 25px;
+  }
+
+  .btn-bottom {
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 0px;
+    font-family: 'Overpass';
+
+  }
+
+  .contact-details {
+    max-width: 90%;
+  }
+
+  /* Centers content and makes submit button full screen on mobile devices */
+
+  @media only screen and (max-width: 767px) {
+
+    .btn-bottom {
+      display: block;
+      width: 100%;
+    }
+
+    .contact-social {
+      margin-top: 15px;
+      margin-bottom: 35px;
+      text-align: center;
+    }
+
+    .contact-header {
+      text-align: center;
+    }
+
+    .contact-details {
+      text-align: center;
+      max-width: 100%;
+    }
+
+    .btn-bottom {
+      margin-top: 45px;
+    }
+
+  }
