@@ -136,3 +136,90 @@ nav, h1, h2, h3, h4, h5 {
     }
 
   }
+
+  /* Main Content Style */
+
+  .content-container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  .section-header {
+      font-size: 26px;
+      font-family: 'Overpass';
+      font-weight: bold;
+      text-transform: capitalize;
+      color: rgb(40, 54, 64);
+      margin-bottom: 16px;
+  }
+
+  .section-details {
+    font-size: 18px;
+    color: #000;
+    color: rgb(40, 54, 64);
+    line-height: 30px;
+  }
+
+  ul.fa-ul {
+    margin-left: 30px;
+  }
+
+  ul.fa-ul li {
+    margin-top: 10px;
+  }
+
+  .section-style {
+    border-left: solid 3px #ffcc33;
+    padding-left: 25px;
+  }
+
+  /* Mobile styling for main content; pushes skills below bio and assigns it similar styling. Border increases on mobile devices. */
+
+  @media only screen and (max-width: 767px) {
+    .skills {
+      border-left: solid 3px #ffcc33;
+      padding-left: 25px;
+      margin-top: 100px;
+    }
+
+  }
+
+  @media only screen and (max-width: 475px) {
+
+    .section-style, .skills {
+      border-left: solid 5px #ffcc33;
+    }
+
+  }
+
+  /* Porfolio Card Style */
+
+  .card {
+    border: none;
+  }
+
+  .card-body {
+      padding: 20px 0px 20px 0px;
+  }
+
+  .card-img-top {
+    border-radius: 0px;
+  }
+
+  .text-muted {
+    font-family: 'Overpass';
+  }
+
+  /* Gives cards a little more breathing room on mobile devices */
+
+  @media only screen and (max-width: 767px) {
+
+    .card {
+      margin-bottom: 50px;
+    }
+
+    .card-body {
+      margin-top: 20px;
+    }
+
+  }
